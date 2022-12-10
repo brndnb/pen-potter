@@ -4,9 +4,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Stick', sans-serif;
 }
 
+
+body {
+    background-color: rgb(241, 243, 242);
+}
+
+
+
+
 header {
+    font-size: 25px;
+    font-family: 'Stick', sans-serif;
     display: flex;
     justify-content: space-between;
     color: #2d6c70;
@@ -14,25 +25,36 @@ header {
     padding: 15px 0 0 25px;
 }
 
-body {
-    background-color: rgb(241, 243, 242);
+.navContainer {
+    margin: 70px 30px 0 30px;
+}
+
+.navContainer .nav {
+    background-color: #ffe093;
+    box-shadow: 9px 11px 18px -10px rgba(46,46,46,0.75);
+    border-radius: 5px;
+    padding: 2px 20px 2px 20px;
+    text-decoration: none;
+}
+
+.navContainer a {
+    color: rgb(92, 67, 2);
+}
+
+.navContainer .navNote {
+    background: linear-gradient( #ffe093, rgb(162, 118, 7));
+    color: beige;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
-
 }
 
 
-
-.container2 {
-    margin-top: 20px;
-    display: flex;
-    justify-content: flex-start;
-    /* border: solid 1px black; */
+.qH2 {
+    margin-bottom: 30px;
 }
 
 .pencilHat {
@@ -41,6 +63,45 @@ body {
     border-radius: 100%;
 }
 
+.pencilHat:hover {
+    animation: wiggle 0.7s ease-in-out both;
+}
+
+.conjQuote {
+    animation: enlarge 2s ease-in-out both infinite;
+}
+
+
+
+@keyframes enlarge {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes wiggle {
+    0% {
+        transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+    25% {
+        transform: rotate(6deg) translate3d(0, 0, 0);
+    }
+    50% {
+        transform: rotate(-6deg) translate3d(0, 0, 0);
+    }
+    75% {
+        transform: rotate(3deg) translate3d(0, 0, 0);
+    }
+    100% {
+        transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+}
 
 .qBox {
     /* border: solid black 1px; */
@@ -51,7 +112,18 @@ body {
     text-align: center;
 }
 
+.qTxt {
+  
+    position: relative;
+    bottom: 270px;
+    left: 200px;
+    width: 410px;
+}
+
+
+
 .paperTexture {
+    position: relative;
     height: 400px;
     width: 800px;
     border-radius: 50px;
