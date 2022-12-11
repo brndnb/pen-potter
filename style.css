@@ -23,7 +23,6 @@ header {
     font-family: 'Stick', sans-serif;
     display: flex;
     justify-content: space-between;
-    
     margin-bottom: 100px;
     padding: 15px 0 0 25px;
     
@@ -33,9 +32,14 @@ header {
     text-decoration: none;
     color: #3d8d93;
 }
+
 .hatlogo {
     width:55px;
     height: 75x;
+}
+
+.hdr-h1 {
+    margin-left: 20px;
 }
 
 .picContainer {
@@ -53,6 +57,14 @@ header {
     border-radius: 5px;
     padding: 2px 20px 2px 20px;
     text-decoration: none;
+}
+
+.navContainer .navNote {
+    background-color: #f4d3a0;
+}
+
+.navContainer .navNote:hover {
+    background: linear-gradient( #f4d3a0, #ac5f28);
 }
 
 .navContainer a {
@@ -79,7 +91,7 @@ header {
 }
 
 .bodyNotes .navNote {
-    background: linear-gradient( #64ccce, #1e7a7b);
+    background: linear-gradient( #f4d3a0, #ac5f28);
    
     border-bottom: #230d138f 3px solid;
 }
@@ -201,19 +213,23 @@ header {
     text-align: center;
 }
 
-textarea {
+.textarea {
     text-align: center;
     margin-bottom: 20px;
     border: none;
     border-radius: 10px;
     background-color: #e3e3e3;
     box-shadow: 9px 11px 18px -10px #5b310b;
+    width: 500px;
+    height: 80px;
 }
 
 .buttonCont {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+  
+    width: 500px;
 }
 
 .clear, .submit {
@@ -245,4 +261,6 @@ textarea {
     width: 300px;
     height: 300px;
     border-radius: 10px;
+    text-align: center;
+    padding: 50px;
 }

@@ -18,10 +18,11 @@
         <a class="hdrLogo" href="index.html">
         <div class="hdrTxtContainer">
             <div class="picContainer">
-                 <h1 class="hdr-h1">Pen|Potter</h1>
-                 <img class="hatlogo" src="/images/pencil-hat.jpg" alt="pencilhat">
+                <img class="hatlogo" src="/images/pencil-hat.jpg" alt="pencilhat"> 
+                <h1 class="hdr-h1">Pen|Potter</h1>
+                 
             </div>
-            <h6>quote-generating wizard of the web</h6>
+            <h5>quote-generating wizard of the web</h5>
         </div>
         </a>
         <div class="navContainer">
@@ -35,20 +36,15 @@
        <h1> Leave a Note</h1>
        <p>Fill up the form below and click on Submit to leave a note</p>
       </div>
-      <form>
-         <textarea name="noteTxt" id="noteTxt" cols="60" rows="2"></textarea>
+         <input type="text" id="noteTxt" class="textarea"></input>
          <div class="buttonCont">
-            <button class="clear">Clear</button>
-            <button class="submit">Submit</button>
+            <button class="clear" onclick="clearNote()">Clear</button>
+            <button class="submit" onclick="leaveNote()">Submit</button>
          </div>
-      </form>
       </div>
-      <div class="boxContainer">
-        <div class="box box1">Content1</div>
-        <div class="box box2">Content2</div>
-        <div class="box box3">Content3</div>
-      </div>
+      <div class="boxContainer" id="parent"></div>
     </div>
     <footer></footer>
+    <script src="script.js"></script>  
 </body>
 </html>
