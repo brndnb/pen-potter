@@ -52,7 +52,7 @@ header {
 }
 
 .navContainer .nav {
-    background-color: #3fbfc0;
+    background: linear-gradient( #64ccce, #1e7a7b);
     box-shadow: 9px 11px 18px -10px rgba(46,46,46,0.75);
     border-radius: 5px;
     padding: 2px 20px 2px 20px;
@@ -60,11 +60,12 @@ header {
 }
 
 .navContainer .navNote {
-    background-color: #f4d3a0;
+    background: linear-gradient( #f4d3a0, #ac5f28);
 }
 
 .navContainer .navNote:hover {
     background: linear-gradient( #f4d3a0, #ac5f28);
+    border-bottom: #230d138f 3px solid;
 }
 
 .navContainer a {
@@ -74,6 +75,7 @@ header {
 
 .navContainer a:hover {
     background: linear-gradient( #64ccce, #1e7a7b);
+    border-bottom: #230d138f 3px solid;
 }
 /* NAV SECTION */
 /*/ BUTTON HIGHLIGHTS /*/

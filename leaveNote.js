@@ -1,7 +1,4 @@
-
-
-
-//LEAVE NOTES FUNCTIONALITY
+//**LEAVE NOTES FUNCTIONALITY**//
 
 const leaveNote = () => {
     //initialize variables
@@ -20,6 +17,7 @@ const leaveNote = () => {
         //Set innher HTML of Div to notes
         make_div.innerHTML = notes;
         parent.appendChild(make_div);
+        //Clears textarea after submitting
         document.getElementById("noteTxt").value = "";
      }
 
@@ -33,5 +31,3 @@ const clearNote = () => {
     parent.appendChild(parent.innerHTML);
 
 }
-
-
