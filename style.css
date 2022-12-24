@@ -8,12 +8,14 @@
     
 }
 
-
+*:not(input):not(textarea) {
+    -webkit-user-select:none; /* disable selection/Copy of UIWebView */
+    -webkit-touch-callout: none; /* disable the IOS popup when long-press on a link */
+  }     
 
 /* BODY SECTION */
 body {
     background-color: #f1f3f2;
-    -webkit-touch-callout: none !important;
 }
 
 
