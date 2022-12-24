@@ -8,7 +8,7 @@
     
 }
 
-*:not(input):not(textarea) {
+*:not(input):not(textarea):not(a) {
     -webkit-touch-callout: none; /* disable the IOS popup when long-press on a link */
         -webkit-user-select:none;
         -moz-user-select: none;
