@@ -327,6 +327,15 @@ footer {
         height: 140px;
         width: 100px;
     }
+
+    .notesHdrCont {
+        font-size: 10px;
+    }
+
+    .textarea {
+        width: 360px;
+    }
+
     footer {
         margin-top: 70px;
     }
