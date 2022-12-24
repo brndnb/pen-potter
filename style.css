@@ -8,13 +8,11 @@
     
 }
 
-*:not(input):not(textarea) {
-    -webkit-touch-callout: none; /* disable the IOS popup when long-press on a link */
-}     
 
 /* BODY SECTION */
 body {
     background-color: #f1f3f2;
+    -webkit-touch-callout: none; /* disable the IOS popup when long-press on a link */
 }
 
 
