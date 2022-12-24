@@ -293,16 +293,19 @@ footer {
         justify-content: center;
     }
     .paperTexture {
-        height: 350px;
-        width: 750px;
+        height: 300px;
+        width: 680px;
     }
 
     .qTxt {
-        bottom: 240px;
+        bottom: 220px;
+        font-size: 15px;
+        width: 380px;
+        margin-left: 30px;
     }
 }
 
-@media (max-width:390px) {
+@media (max-width:519px) {
     header {
         margin-bottom: 40px;
         padding: 15px 0 0 0;
@@ -314,11 +317,11 @@ footer {
         font-size: 20px;
     }
     .paperTexture {
-        height: 230px;
-        width: 360px;
+        height: 220px;
+        width: 400px;
     }
     .qTxt {
-        bottom: 175px;
+        bottom: 155px;
         font-size: 11px;
         width: 200px;
         margin-left: 110px;
