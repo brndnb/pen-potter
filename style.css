@@ -302,26 +302,30 @@ footer {
     }
 }
 
-@media (max-width:519px) {
+@media (max-width:390px) {
     header {
         margin-bottom: 40px;
+        padding: 15px 0 0 0;
     }
     .navContainer {
         height: 120px;
     }
+    .qH2 {
+        font-size: 20px;
+    }
     .paperTexture {
-        height: 250px;
-        width: 500px;
+        height: 230px;
+        width: 360px;
     }
     .qTxt {
-        bottom: 180px;
-        font-size: 12px;
-        width: 290px;
-        margin-left: 70px;
+        bottom: 175px;
+        font-size: 11px;
+        width: 200px;
+        margin-left: 110px;
     }
     .pencilHat {
-        height: 169px;
-        width: 120px;
+        height: 140px;
+        width: 100px;
     }
     footer {
         margin-top: 70px;
