@@ -28,6 +28,5 @@ const leaveNote = () => {
 const clearNote = () => {
     let parent = document.getElementById("parent");
     parent.innerHTML = "";
-    parent.appendChild(parent.innerHTML);
 
 }
