@@ -8,13 +8,12 @@
     
 }
 
-*:not(input):not(textarea):not(a) {
+*:not(input):not(textarea) {
     -webkit-touch-callout: none; /* disable the IOS popup when long-press on a link */
         -webkit-user-select:none;
         -moz-user-select: none;
         -ms-user-select: none;
         user-select: none;
-        pointer-events: none;
 }     
 
 /* BODY SECTION */
