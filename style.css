@@ -22,6 +22,7 @@ header {
     font-size: 25px;
     font-family: 'Stick', sans-serif;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 100px;
     padding: 15px 0 0 25px;
@@ -49,6 +50,7 @@ header {
 /* NAV SECTION */
 .navContainer {
 display: flex;
+flex-wrap: wrap;
 justify-content: center;
 align-items: center;
 margin: 40px 20px 0 0;
@@ -153,8 +155,8 @@ margin: 40px 20px 0 0;
 /* QUOTE SECTION SECTION */
 
 .qBox {
-    background-color: rgb(255, 255, 255);
-    border-radius: 50px;
+   
+    
     height: 200px;
     width: 800px;
     text-align: center;
@@ -174,7 +176,6 @@ margin: 40px 20px 0 0;
     position: relative;
     height: 400px;
     width: 800px;
-    border-radius: 50px;
 }
 
 
@@ -287,6 +288,43 @@ footer {
 
 /* TABLET VERSION */
 
-@media (max-width:768px) {
-    
+@media (max-width:858px) {
+    header {
+        justify-content: center;
+    }
+    .paperTexture {
+        height: 350px;
+        width: 750px;
+    }
+
+    .qTxt {
+        bottom: 240px;
+    }
+}
+
+@media (max-width:519px) {
+    header {
+        margin-bottom: 40px;
+    }
+    .navContainer {
+        height: 120px;
+    }
+    .paperTexture {
+        height: 250px;
+        width: 500px;
+    }
+    .qTxt {
+        bottom: 180px;
+        font-size: 12px;
+        width: 290px;
+        margin-left: 70px;
+    }
+    .pencilHat {
+        height: 169px;
+        width: 120px;
+    }
+    footer {
+        margin-top: 70px;
+    }
+
 }

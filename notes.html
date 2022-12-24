@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Stick&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Stick&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Stick&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Roboto&family=Stick&display=swap');
     </style>
-    <title>Pen Potter - Leave a Note</title>
+        <title>Pen Potter - Quote Generator</title>
 </head>
 <body class="bodyNotes">
     <header>
@@ -26,17 +27,19 @@
         </div>
         </a>
         <div class="navContainer">
-            <a class="nav navHome" href="index.html">Home</a>
+            <a class="btn btn-home" href="index.html">Home</a>
             
-            <a class="nav navNote" href="notes.html">LEAVE A NOTE !</a>
+            <a class="btn btn-note" href="notes.html">POST A NOTE !</a>
         </div>
     </header>
     <div class="notesContainer">
       <div class="notesHdrCont">
-       <h1> Leave a Note</h1>
-       <p>Fill up the form below and click on Submit to leave a note</p>
+       <h1> Post a Note</h1>
+       <p>You can post a personal note by filling up the form below and clicking "Submit".<br>
+    You can clear your sticky notes by clicking on the "Clear" button.</p>
       </div>
          <input type="text" id="noteTxt" class="textarea"></input>
+         
          <div class="buttonCont">
             <button class="clear" onclick="clearNote()">Clear</button>
             <button class="submit" onclick="leaveNote()">Submit</button>
@@ -44,7 +47,15 @@
       </div>
       <div class="boxContainer" id="parent"></div>
     </div>
-    <footer></footer>
+    <footer>
+        <div class="footerContainer">
+         <p>find me on social media</p>
+         <a href="https://github.com/brndnb"><i class="fa-brands fa-github fa-xl"></i></a>
+         <a href="https://www.instagram.com/belleza_dan/"><i class="fa-brands fa-instagram fa-xl"></i></a>
+         <a href="https://www.facebook.com/brandon.belleza"><i class="fa-brands fa-facebook fa-xl"></i></a>
+        </div>
+    </footer>
     <script src="leaveNote.js"></script>  
+    <script src="https://kit.fontawesome.com/48b36155c5.js" crossorigin="anonymous"></script>    
 </body>
 </html>
