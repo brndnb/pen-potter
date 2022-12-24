@@ -52,4 +52,4 @@ button.addEventListener("mousedown", () => {
 button.addEventListener("mouseup", () => {
   clearTimeout(timer); //resets timer on mouse up.
 });
-
+button.addEventListener("touchstart", getQuote);

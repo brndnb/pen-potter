@@ -12,7 +12,7 @@
 /* BODY SECTION */
 body {
     background-color: #f1f3f2;
-    
+    -webkit-touch-callout: none;
 }
 
 
@@ -114,6 +114,7 @@ margin: 40px 20px 0 0;
 .pencilHat:active {
     animation: wiggle 0.7s ease-in-out both infinite;
 }
+
 
 .conjQuote {
     animation: enlarge 2s ease-in-out both infinite;
@@ -306,6 +307,9 @@ footer {
 }
 
 @media (max-width:519px) {
+    .pencilHat:hover, .pencilHat:active {
+        animation: wiggle 0.7s ease-in-out both infinite;
+    }
     header {
         margin-bottom: 40px;
         padding: 15px 0 0 0;
