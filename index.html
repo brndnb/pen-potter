@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Stick&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Stick&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Stick&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Roboto&family=Stick&display=swap');
     </style>
     <title>Pen Potter - Quote Generator</title>
 </head>
@@ -18,29 +20,36 @@
         <a class="hdrLogo" href="index.html">
         <div class="hdrTxtContainer">
             <div class="picContainer">
-             <img class="hatlogo" src="./images/pencil-hat.jpg" alt="pencilhat">
+             <img class="hatlogo" src="/images/pencil-hat.jpg" alt="pencilhat">
              <h1 class="hdr-h1">Pen|Potter</h1>
             </div>
             <h5>quote-generating wizard of the web</h5>
         </div>
         </a>
-        <div class="navContainer">
-            <a class="nav navHome" href="index.html">Home</a>
-    
-            <a class="nav navNote" href="notes.html">LEAVE A NOTE !</a>
+        <div class="navContainer"> 
+            <a class="btn btn-home" href="index.html">Home</a>
+            <a class="btn btn-note" href="notes.html">POST A NOTE !</a>
         </div>
     </header>
     <div class="container">
-        <h3 class="qH3"><em>"It is of the utmost importance for one to live a quote-worthy life"</em></h3>
-        <h2 class="qH2">Click the magic hat to conjure a quote</h2>
-        <a href="#" class="conjQuote" id="conjQuote"><img class="pencilHat" src="./images/pencil-hat.jpg" alt="penchilhat"></a>
+        
+        <h2 class="qH2">PRESS and HOLD to conjure a QUOTE</h2>
+        <a href="#" class="conjQuote" id="conjQuote"><img class="pencilHat" src="/images/pencil-hat.jpg" alt="penchilhat" draggable="false"></a>
         <div class="qBox" id="qBox">
-            <img class = "paperTexture" src="./images/paperTexture.jpg" alt="paper">
-            <!-- <p class="qTxt"><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis non quia expedita odio temporibus iste ab molestiae provident ipsam, eaque voluptatum inventore rem beatae accusamus natus iusto, voluptas maxime nisi.</strong></p> -->
+            <img class = "paperTexture" src="/images/paperTexture.jpg" alt="paper">
         </div>
         
     </div>
-    <footer></footer>
- <script src="getQuote.js"></script>    
+
+ <script src="getQuote.js"></script>
+ <script src="https://kit.fontawesome.com/48b36155c5.js" crossorigin="anonymous"></script>    
 </body>
+<footer>
+    <div class="footerContainer">
+     <p>find me on social media</p>
+     <a href="https://github.com/brndnb"><i class="fa-brands fa-github fa-xl"></i></a>
+     <a href="https://www.instagram.com/belleza_dan/"><i class="fa-brands fa-instagram fa-xl"></i></a>
+     <a href="https://www.facebook.com/brandon.belleza"><i class="fa-brands fa-facebook fa-xl"></i></a>
+    </div>
+</footer>
 </html>
